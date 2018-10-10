@@ -35,7 +35,7 @@ nav {
 }
 
 .location {
-border: 1px solid gray;
+border: 1px solid #aaa;
 float: left;
 }
 
@@ -52,11 +52,19 @@ margin-bottom: 5%;
 margin-top: 5%;
 margin-right: 2.5%}
 
+.map{}
+
 h1 {
   font-size: 2em; /* 32px */
   margin-left: 4%;
   font-weight: bold;
 }
+
+h2 {font-size: 2em;
+margin-left: 25%;
+color: white;
+}
+
 
 h3 {font-size: 1.4em;
 margin-left: 4%;}
