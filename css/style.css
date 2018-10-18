@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  height: 500px;
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: #333;
@@ -22,11 +21,8 @@ body {
 }
 
 nav {
-  
-
   padding-bottom: 15px;
   padding-top: 15px;
-  width: 420px;
   background-color: black;
 }
 
@@ -35,29 +31,34 @@ nav {
   float: left;
   margin: 0%;
   padding: 0%;
-  width: 420px;
+  height: 219px;
+  overflow: scroll;
 }
 
 .location {
-border: 1px solid #aaa;
-float: left;
+  border: 1px solid #aaa;
+  float: left;
 }
 
 .content {
-float: left;
-margin: 0%;
-margin-top: 5%;
-margin-bottom: -10%;
-width: 420px;}
+  float: left;
+  margin: 0%;
+  margin-top: 5%;
+  margin-bottom: -10%;
+  width: 420px;
+}
 
 .arrow {
-float: right;
-margin-bottom: 5%;
-margin-top: 5%;
-margin-right: 2.5%}
+  float: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-right: 2.5%
+}
 
-.arrow-left{float: left;
-  margin-left: 2.5%;}
+.arrow-left{
+  float: left;
+  margin-left: 2.5%;
+}
 
 
 h1 {
@@ -66,13 +67,16 @@ h1 {
   font-weight: bold;
 }
 
-h2 {font-size: 2em;
-text-align: center;
-color: white;
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: white;
 }
 
 
-h3 {font-size: 1.4em;
-margin-left: 4%;}
+h3 {
+  font-size: 1.4em;
+  margin-left: 4%;
+}
 
-.location:hover {background-color: #aaa; } /* mouse over */
+.location:hover {background-color: #aaa;} /* mouse over */
